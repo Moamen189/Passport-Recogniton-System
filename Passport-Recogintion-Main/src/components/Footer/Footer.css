@@ -1,0 +1,28 @@
+footer {
+  color: #fff;
+  background-color: var(--my-primary-color) !important;
+}
+/* footer {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+} */
+.footer-copyright {
+  color: rgb(180, 180, 180);
+}
+footer a {
+  color: var(--logo-color);
+}
+footer a:hover {
+  color: #fff;
+}
+
+footer .container .row {
+  margin-top: 0px;
+}
+footer .container .row div ul {
+  font-size: 1rem;
+  line-height: 2rem;
+  list-style: none;
+}

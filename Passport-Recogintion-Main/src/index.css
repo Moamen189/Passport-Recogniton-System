@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:ital,wght@0,400;1,405&family=Libre+Baskerville:ital@0;1&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+:root {
+  --my-primary-color: #070041;
+  /* --my-primary-color: rgb(20, 20, 20); */
+
+  --logo-color: #ffcd35;
+  /* --secondary-color:  */
+}
+
+body {
+  /* background-color: rgb(218, 218, 218); */
+  background-color: white;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.fixed {
+  position: fixed;
+}
+
+.mui-blue {
+  color: #1976d2;
+}
+.my-bg {
+  background-color: var(--my-primary-color) !important;
+}
+.my-color {
+  color: var(--my-primary-color);
+}
+.my-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.my-font-small {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+.logo {
+  font-family: "Bakbak One", cursive;
+  transition: all ease-in-out 0.2s;
+}
+.logo-span {
+  color: var(--logo-color);
+}
+.logo:hover {
+  color: var(--logo-color) !important;
+}
+/* .active {
+  color: var(--logo-color) !important;
+} */
+.active i {
+  color: var(--logo-color);
+}

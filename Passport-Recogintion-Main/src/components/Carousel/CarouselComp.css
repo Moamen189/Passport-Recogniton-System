@@ -1,0 +1,19 @@
+:root {
+  --brand-color: #ff6565;
+  --nav-bg: #343a40;
+}
+
+.carousel-inner {
+  color: aliceblue;
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./bg.jpg");
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  font-family: "Open Sans", sans-serif;
+}
+.carousel .carousel-item {
+  margin-top: 27vh;
+}

@@ -1,0 +1,9 @@
+#SearchPlaceHolder::-webkit-input-placeholder{color: #1976d2;
+}
+input::-moz-placeholder{color: #1976d2;
+}
+input::-ms-input-placeholder{color: #1976d2;
+}
+input{
+    background-color: #1976d2;
+}
