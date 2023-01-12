@@ -8,4 +8,3 @@ Werkzeug~=2.0.2
 pymysql~=1.0.2
 pytesseract~=0.3.8
 opencv-python~=4.5.4.60
-Pillow~=8.4.0
